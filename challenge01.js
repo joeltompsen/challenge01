@@ -26,7 +26,7 @@ const normalizeTitle = (title) => {
   // Convertendo 1000ml para 1L e 1000g para 1kg
   title = title.replace(/(\d+)\s*(ml|g)\b/g, (match, number, unit) => {
     if (unit === 'ml' && number >= 1000) {
-      return `${number / 1000}L`;  // Convertendo ml para L
+      return `${number / 1000}l`;  // Convertendo ml para L
     }
     if (unit === 'g' && number >= 1000) {
       return `${number / 1000}kg`;  // Convertendo g para kg
