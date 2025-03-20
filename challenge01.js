@@ -4,8 +4,8 @@ const fs = require('fs');
 const sizeMapping = {
   "quilo": "kg",
   "quilos": "kg",
-  "litro": "L",
-  "litros": "L",
+  "litro": "l",
+  "litros": "l",
   "grama": "g",
   "gramas": "g",
   "mililitro": "ml",
